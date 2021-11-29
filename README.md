@@ -1,4 +1,3 @@
-# scaling_matters
 This repository is home to the code and results used in the research paper "The choice of scaling technique matters for classification performance".
 
 - In the Code directory you can find the Jupiter Notebooks that run the experiment.
