@@ -1,0 +1,23 @@
+Model,Metric,Statistics,p-value,Rejects $H_0$?
+SVM_lin,f1,87.7996,0.0000,Yes
+SVM_lin,gmean,115.0704,0.0000,Yes
+SVM_RBF,f1,30.4809,0.0000,Yes
+SVM_RBF,gmean,30.1483,0.0000,Yes
+KNN,f1,13.6182,0.0182,Yes
+KNN,gmean,10.0738,0.0732,No
+GNB,f1,32.5967,0.0000,Yes
+GNB,gmean,47.6515,0.0000,Yes
+GLVQ,f1,18.1786,0.0027,Yes
+GLVQ,gmean,17.3357,0.0039,Yes
+LDA,f1,14.4118,0.0132,Yes
+LDA,gmean,23.8235,0.0002,Yes
+QDA,f1,16.6384,0.0052,Yes
+QDA,gmean,21.7502,0.0006,Yes
+GP,f1,71.4694,0.0000,Yes
+GP,gmean,72.7482,0.0000,Yes
+DT,f1,9.1375,0.1037,No
+DT,gmean,8.7426,0.1198,No
+Percep,f1,49.8774,0.0000,Yes
+Percep,gmean,71.7906,0.0000,Yes
+MLP,f1,106.7672,0.0000,Yes
+MLP,gmean,105.3661,0.0000,Yes

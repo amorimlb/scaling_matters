@@ -1,0 +1,19 @@
+Model,Metric,Statistics,p-value,Rejects $H_0$?
+RF,f1,4.2290,0.5169,No
+RF,gmean,4.3663,0.4980,No
+XGBoost,f1,1.0620,0.9574,No
+XGBoost,gmean,1.0620,0.9574,No
+AdaBoost,f1,10.1718,0.0705,No
+AdaBoost,gmean,10.1718,0.0705,No
+Bagging,f1,81.2242,0.0000,Yes
+Bagging,gmean,105.0774,0.0000,Yes
+OLA,f1,12.1982,0.0322,Yes
+OLA,gmean,20.3570,0.0011,Yes
+LCA,f1,46.6312,0.0000,Yes
+LCA,gmean,48.5582,0.0000,Yes
+MCB,f1,10.0295,0.0744,No
+MCB,gmean,12.7753,0.0256,Yes
+KNORAE,f1,6.1326,0.2935,No
+KNORAE,gmean,2.4471,0.7844,No
+KNORAU,f1,38.4457,0.0000,Yes
+KNORAU,gmean,51.3526,0.0000,Yes
